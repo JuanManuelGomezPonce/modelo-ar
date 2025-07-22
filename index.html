@@ -8,10 +8,6 @@
     body {
       margin: 0;
       background: transparent;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
     }
     model-viewer {
       width: 100vw;
@@ -24,13 +20,12 @@
   <model-viewer
     src="modelo.glb"
     ar
-    ar-modes="scene-viewer webxr"
+    ar-modes="scene-viewer webxr quick-look"
     camera-controls
     shadow-intensity="1"
     exposure="1"
     environment-image="neutral"
-    alt="Modelo 3D de Santiponce"
-    style="width: 100vw; height: 100vh; background-color: transparent;">
+    alt="Modelo 3D de Santiponce">
   </model-viewer>
 </body>
 </html>
